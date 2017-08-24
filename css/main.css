@@ -1,5 +1,16 @@
-body{
+* {
+  box-sizing: border-box;
+}
+
+/*body{
     margin-top: 60px;
+}*/
+h1{
+    text-align: center;
+    color: white;
+    z-index: 999;
+
+
 }
 .navbar{
     top: 0;
@@ -7,7 +18,7 @@ body{
     width: 100%;
     height: 40px;
     position: fixed;
-    background-color: #6079a3;
+    background-color: rgba(0,0,0,0.8);/*black;rgba(96,121,163,1);*/
     z-index: 999;
 }
 
@@ -34,15 +45,39 @@ li{
     cursor: pointer;
 }
 
-a{
+/*a{
     color: white;
-}
+}*/
 
 a:hover{
     text-decoration: none;
-    color: white;
+    /*color: white;*/
+}
+i{
+    color: black;
+}
+li:hover{
+    background-color: rgb(50, 51, 53);/*rgb(70, 96, 137);*/
 }
 
-li:hover{
-    background-color: rgb(70, 96, 137);
+.homeSection{
+    margin: 50px auto;
+    background:linear-gradient(to top, rgba(0,0,0,0.5), rgba(67, 67, 67, 0.5)),url("../w3images/download.jpg") no-repeat fixed center;
+    /*  background: linear-gradient(to top, #000000, #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+
+    linear-gradient(rgba(232, 234, 237, 0.65), rgba(29, 29, 30,0.65))*/
+    background-size: cover;
+    /*color: #fff;*/
+    height: 100vh;
+    color: rgba(255, 255, 255, 0.7);
+}
+.aboutSection{
+    color: green;
+    height: 100vh;
+    background-color: red;
+}
+.downarrow{
+    text-align: center;
+    margin-top: 450px;
+    width: 5em;
+
 }
