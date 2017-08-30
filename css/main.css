@@ -1,16 +1,19 @@
 * {
-  box-sizing: border-box;
+  box-sizing: content-box;
+  font-family: 'Raleway', sans-serif;
 }
 
 /*body{
     margin-top: 60px;
 }*/
-h1{
+.homeContent h1{
     text-align: center;
     color: white;
     z-index: 999;
-
-
+    text-transform: uppercase;
+}
+h1{
+    color: white;
 }
 .navbar{
     top: 0;
@@ -53,15 +56,13 @@ a:hover{
     text-decoration: none;
     /*color: white;*/
 }
-i{
-    color: black;
-}
+
 li:hover{
     background-color: rgb(50, 51, 53);/*rgb(70, 96, 137);*/
 }
 
 .homeSection{
-    margin: 50px auto;
+    margin: 50px auto 0 auto;
     background:linear-gradient(to top, rgba(0,0,0,0.5), rgba(67, 67, 67, 0.5)),url("../w3images/download.jpg") no-repeat fixed center;
     /*  background: linear-gradient(to top, #000000, #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+
     linear-gradient(rgba(232, 234, 237, 0.65), rgba(29, 29, 30,0.65))*/
@@ -69,15 +70,39 @@ li:hover{
     /*color: #fff;*/
     height: 100vh;
     color: rgba(255, 255, 255, 0.7);
+
+}
+i{
+    color: white;
+    text-align: center;
+}
+.homeContent{
+    position: relative;
+    max-width: 50%;
+    height: 90%;
+    margin: auto auto;
+    text-align: center;
 }
 .aboutSection{
-    color: green;
+    position: absolute;
     height: 100vh;
-    background-color: red;
+    background-color: rgb(155, 24, 24);
+    color: white;
+}
+.panel{
+    padding: 0.01em 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-left: 6px solid #ccc;
 }
 .downarrow{
     text-align: center;
     margin-top: 450px;
     width: 5em;
 
+}
+hr{
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
 }
