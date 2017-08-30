@@ -1,11 +1,7 @@
 * {
-  box-sizing: content-box;
+  box-sizing: border-box;
   font-family: 'Raleway', sans-serif;
 }
-
-/*body{
-    margin-top: 60px;
-}*/
 .homeContent h1{
     text-align: center;
     color: white;
@@ -15,24 +11,20 @@
 h1{
     color: white;
 }
-.navbar{
-    top: 0;
+nav{
     box-shadow: 0 2px 2px rgba(0,0,0,.45);
-    width: 100%;
-    height: 40px;
-    position: fixed;
-    background-color: rgba(0,0,0,0.8);/*black;rgba(96,121,163,1);*/
-    z-index: 999;
 }
 
-ul{
+.
+
+/*ul{
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 0px;
     padding-top: 0px;
-}
+}*/
 
-li{
+/*li{
     list-style: none;
     float: left;
     display: block;
@@ -46,7 +38,7 @@ li{
     transition: background-color 350ms;
     color: white;
     cursor: pointer;
-}
+}*/
 
 /*a{
     color: white;
@@ -62,18 +54,16 @@ li:hover{
 }
 
 .homeSection{
-    margin: 50px auto 0 auto;
+    /*position: relative;*/
+    margin: 0 auto 0 auto;
     background:linear-gradient(to top, rgba(0,0,0,0.5), rgba(67, 67, 67, 0.5)),url("../w3images/download.jpg") no-repeat fixed center;
-    /*  background: linear-gradient(to top, #000000, #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+
-    linear-gradient(rgba(232, 234, 237, 0.65), rgba(29, 29, 30,0.65))*/
     background-size: cover;
-    /*color: #fff;*/
     height: 100vh;
     color: rgba(255, 255, 255, 0.7);
 
 }
 i{
-    color: white;
+    color: inherit;
     text-align: center;
 }
 .homeContent{
@@ -86,6 +76,7 @@ i{
 .aboutSection{
     position: absolute;
     height: 100vh;
+    width: 100%;
     background-color: rgb(155, 24, 24);
     color: white;
 }
